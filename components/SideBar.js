@@ -30,12 +30,6 @@ export default function SideBar() {
     <div className="text-gray-500 p-5 text-xs lg:text-sm border-r border-gray-900 overflow-y-scroll scrollbar-hide h-screen sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-flex">
       <div className="space-y-4">
         {/* First Section */}
-        <button 
-          className="flex items-center space-x-2 hover:text-white"
-          onClick={() => signOut}
-        >
-          <p>Log Out</p>
-        </button>
         <button className="flex items-center space-x-2 hover:text-white">
           <HomeIcon className="h-5 2-5" />
           <p>Home</p>
